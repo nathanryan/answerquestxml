@@ -1,4 +1,4 @@
-<!-- BSHC2A Team OBCT Nathan Ryan x13448212 Keith Lok x13323161 Jefferson Tolentino x13452702 Daniel Benhamou x13341086 Usman Akhtar x13358421 -->
+<!-- BSHC2A Team OBCT Nathan Ryan Keith Lok Jefferson Tolentino Daniel Benhamou Usman Akhtar -->
 
 -This project uses Apache Server, Jetty Server on Port 8444, Glassfish Server 4.0, eXist Database and MySQL Database on Port 3307.
 
@@ -12,6 +12,5 @@
 
 -JAR files are also required to be placed in the library of the app. These JARs are located in a folder called 'JARS' and can be added through NetBeans by right-clicking on the app and clicking 'Properties' and heading to the 'Libraries' tab and choosing the 'Add JAR/Folder' button.
 
--Also included is the AnswerQuest.war file
 
 
