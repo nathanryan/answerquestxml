@@ -1,0 +1,38 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="questionlist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="topic" maxOccurs="unbounded" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation>Each Topic creates a new Topics and Questions Page</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="topicname"/>
+              <xs:element type="xs:string" name="topicinfo"/>
+              <xs:element type="xs:string" name="topicimage"/>
+              <xs:element name="questionmembers">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="question" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="name"/>
+                          <xs:element type="xs:string" name="questiontext"/>
+                          <xs:element type="xs:string" name="correct"/>
+                          <xs:element type="xs:string" name="incorrect"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="id" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
