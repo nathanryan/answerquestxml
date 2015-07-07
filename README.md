@@ -1,4 +1,14 @@
-<!-- BSHC2A Team OBCT Nathan Ryan Keith Lok Jefferson Tolentino Daniel Benhamou Usman Akhtar -->
+[![AnswerQuest home](https://raw.githubusercontent.com/nathanryan/answerquestxml/master/AnswerQuest/screenshots/home.PNG)]
+
+[![AnswerQuest profile](https://raw.githubusercontent.com/nathanryan/answerquestxml/master/AnswerQuest/screenshots/profile.PNG)]
+
+[![AnswerQuest topics](https://raw.githubusercontent.com/nathanryan/answerquestxml/master/AnswerQuest/screenshots/topics.PNG)]
+
+[![AnswerQuest quiz](https://raw.githubusercontent.com/nathanryan/answerquestxml/master/AnswerQuest/screenshots/quiz.PNG)]
+
+[![AnswerQuest edit](https://raw.githubusercontent.com/nathanryan/answerquestxml/master/AnswerQuest/screenshots/edit.PNG)]
+
+[![AnswerQuest leaderboard](https://raw.githubusercontent.com/nathanryan/answerquestxml/master/AnswerQuest/screenshots/leaderboard.PNG)]
 
 -This project uses Apache Server, Jetty Server on Port 8444, Glassfish Server 4.0, eXist Database and MySQL Database on Port 3307.
 
